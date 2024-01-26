@@ -7,11 +7,39 @@
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="stylesheet" href="animate.css">
     <link rel="icon" type="image/png" href="./img/nopengo.png" />
+    <style>
+
+
+      #preloader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #202020; /* You can customize the background color */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+      }
+
+      #preloader img {
+          width: 50px; /* You can adjust the size of the loader */
+          height: 50px;
+      }
+
+      /* Add more styling as needed */
+  </style>
   </head>
   <body
-    class="h-[2568px] w- bg-gradient-to-t from-slate-950 from-90% to-red-950 to-1%" onload="downLoad"
+    class="h-[2568px] w- bg-gradient-to-t from-slate-950 from-90% to-red-950 to-1%" onload="showcontent(main)"
   >
-    <div class="main-container" id="content">
+
+  <div id="preloader">
+    <img src="./img/loadingimg.gif" alt="Loading..."> <!-- You can replace 'loading.gif' with your own loader image or use an animated SVG -->
+</div>
+
+    <div class="main-container" id="main-content">
       <header>
         <div id="navbar" class="flex justify-around bg-transparent items-center transition-colors duration-150 ease-in z-10 fixed w-dvw h-[80px]">
           <div class="flex gap-10">
@@ -246,6 +274,14 @@
           
       </footer>
     </div>
+    <script>
+      // Replace this script with your actual loading logic
+      window.addEventListener('load', function () {
+          // Hide the preloader when the page is fully loaded
+          var preloader = document.getElementById('preloader');
+          preloader.style.display = 'none';
+      });
+  </script>
     <script src="main.js"></script>
   </body>
 </html>
