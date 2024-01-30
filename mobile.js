@@ -4,11 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Event listener for the burger icon click
   document.getElementById("burger-icon").addEventListener("click", function() {
-    // Toggle the background color when the burger icon is clicked
-    navbar.style.backgroundColor = navbar.style.backgroundColor === "rgba(0, 0, 0, 0.93)" ? "rgba(0, 0, 0, 0.93)" : "rgba(0, 0, 0, 0.93)";
+   
+    navbar.style.backgroundColor = "black";
+
+    mobile.style.visibility = "visible";
   });
 
   window.onscroll = function() {
-    // No need to update the background color on scroll for mobile
+
   };
 });
+
+// Javascript is confusing me wtf

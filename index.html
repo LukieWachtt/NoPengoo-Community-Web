@@ -13,7 +13,7 @@
   <body
     class="h-[2600px] w- bg-gradient-to-t from-slate-950 from-90% to-red-950 to-1%" onload="showcontent(main)"
   >
-    <div class="main-container" id="main-content">
+    <div class="main-container " id="main-content">
       <header>
         
         <div id="navbar" class="flex justify-end items-center md:justify-around md:items-center  md:transition-colors md:duration-150 md:ease-in z-10 fixed h-[80px] w-dvw">
@@ -25,7 +25,7 @@
           
           <div class="flex gap-10">
 
-            <ul id="mobile" class="md:flex z-[1] md:z-auto md:items-center md:static absolute w-full bg-black md:bg-transparent left-0 md:w-auto md:py-0 py-5 md:pl-0 pl-7 md:opacity-100 opacity-0 
+            <ul id="mobile" class="md:flex z-[1] md:z-auto md:items-center md:static absolute w-full bg-[#000000ed] md:bg-transparent left-0 md:w-auto md:py-0 py-5 md:pl-0 pl-7 md:opacity-100 opacity-0 
             top-[-400px] transition-all ease-in duration-150">
               <li class=" my-6 md:my-0 mx-4">
                 <div class="h-17 w-10 object-fill">
@@ -76,10 +76,10 @@
         </div>
       </header>
 
-      <main class="flex flex-col h-[2600px]">
+      <main class="flex flex-col md:px-14 h-[2600px]">
         <section
           id="home"
-          class="h-[700px] w-100% flex items-center justify-center flex-col gap-10 md:flex-row md:justify-around"
+          class="h-[700px] w-100% flex items-center justify-center flex-col gap-10 md:flex-row md:justify-between"
         >
           <div class="text-xl flex flex-col items-center md:items-start gap-10">
             <h1 class="text-white w-[300px] text-center md:text-left md:w-[500px]">
@@ -149,7 +149,7 @@
             </div>
           </div>
 
-          <div class="flex justify-around items-center flex-col gap-10 md:flex-row mb-[100px]">
+          <div class="flex justify-between items-center flex-col gap-10 md:flex-row mb-[100px]">
             <div class="flex md:block md:w-[400px] text-white text-xl md:text-2xl md:text-left text-center">
               <h1>
                   <span class="font-semibold text-2xl">NoPengoo,</span>  a 20-year-old guy, loves making cool Motion Graphics and 3D stuff. He's all about creating fun videos for everyone to enjoy!
@@ -180,10 +180,10 @@
           </div>
         </section>
         <!-- hello to whoever is inspecting this i hope ur having a good day ~lordlukie -->
-        <section id="community" class="w-100% h-[800px] md:h-0">
-          <div class="flex flex-col md:flex-row md:justify-around items-center">
+        <section id="community" class="w-100% h-[600px] md:h-0">
+          <div class="flex flex-col md:flex-row md:justify-between items-center">
            <div class="flex flex-col md:items-start gap-5 items-center">
-            <div class="text-white text-3xl w-[300px] md:text-left text-center ">We now have a Discord Server! Join our NoPengoo Community discord server! Chat and talk with new friends here!</div>
+            <div class="text-white flex md:block text-2xl md:w-[500px] md:text-left text-center ">We now have a Discord Server! Join our NoPengoo Community discord server! Chat and talk with new friends here!</div>
             <div>
               <button
             class="bg-rose-500 text-xl rounded-lg h-10 w-60 font-semibold text-black"
@@ -204,7 +204,7 @@
       <footer class="h-[80px] flex items-center justify-around bg-slate-900">
         
           <div class="text-white font-light text-sm opacity-60 md:text-xl">@nopengoo</div>
-          <div class="text-white font-semibold text-lg md:text-2xl">Follow My Socials!</div>
+          <div class="text-white font-semibold text-lg md:text-2xl hidden md:block">Follow My Socials!</div>
           <div class="flex gap-3 h-[30px]">
             <a href="twitch.tv/nopengoo"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
               <path d="M11.6397 5.93H13.0697V10.21H11.6397M15.5697 5.93H16.9997V10.21H15.5697M6.99969 2L3.42969 5.57V18.43H7.70969V22L11.2897 18.43H14.1397L20.5697 12V2M19.1397 11.29L16.2897 14.14H13.4297L10.9297 16.64V14.14H7.70969V3.43H19.1397V11.29Z" fill="white"/>
@@ -219,6 +219,7 @@
                     <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 16.84 5.44 20.87 10 21.8V15H8V12H10V9.5C10 7.57 11.57 6 13.5 6H16V9H14C13.45 9 13 9.45 13 10V12H16V15H13V21.95C18.05 21.45 22 17.19 22 12Z" fill="white"/>
                     </svg></a>
           </div>
+          <div class="text-white font-semibold text-sm md:text-2xl block md:hidden">Follow My Socials!</div>
           
       </footer>
     </div>

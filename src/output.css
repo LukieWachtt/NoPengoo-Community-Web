@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -655,6 +659,42 @@ video {
   height: 80px;
 }
 
+.h-\[2400px\] {
+  height: 2400px;
+}
+
+.h-\[2200px\] {
+  height: 2200px;
+}
+
+.h-\[2500px\] {
+  height: 2500px;
+}
+
+.h-\[1150px\] {
+  height: 1150px;
+}
+
+.h-\[1050px\] {
+  height: 1050px;
+}
+
+.h-\[1450px\] {
+  height: 1450px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[550px\] {
+  height: 550px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -693,6 +733,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .transform {
@@ -735,6 +783,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -793,6 +845,30 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-current {
+  background-color: currentColor;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#2323\] {
+  background-color: #2323;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#000000ed\] {
+  background-color: #000000ed;
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -836,6 +912,11 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pl-7 {
@@ -991,6 +1072,10 @@ video {
     height: 180px;
   }
 
+  .md\:h-\[2200px\] {
+    height: 2200px;
+  }
+
   .md\:w-\[180px\] {
     width: 180px;
   }
@@ -1041,6 +1126,10 @@ video {
     align-items: center;
   }
 
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
   .md\:justify-around {
     justify-content: space-around;
   }
@@ -1056,6 +1145,21 @@ video {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .md\:pl-0 {
